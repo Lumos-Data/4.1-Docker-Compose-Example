@@ -1,0 +1,12 @@
+services:
+  qdrant:
+    image: 
+    ports:
+      - "6333:6333"  
+    restart: on-failure  
+    networks:
+      - qdrant_network  
+
+networks:
+  qdrant_network:
+    driver: bridge  
