@@ -22,7 +22,7 @@ Let's have a look at how to work with Docker Container:
 
 3. Open the integrated terminal from the downloaded folder (right-click on the area with the docker-compose.yml file and select "open in integrated terminal").  
 
-4. Check if Docker is installed and Docker Desktop is opened (Windows/MacOS) on your machine:  
+4. Check if Docker is installed and Docker Desktop is opened (Windows/MacOS) on your machine (check manually and also with CLI):  
    docker --version  
    docker-compose --version  
 
